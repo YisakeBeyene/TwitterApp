@@ -62,5 +62,19 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.codepath.TwitterApp</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>alamoTwitter</string>
+			</array>
+		</dict>
+		<dict/>
+	</array>
 </dict>
 </plist>
